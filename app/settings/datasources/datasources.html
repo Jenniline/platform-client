@@ -117,7 +117,7 @@
 
                                  <fieldset data-fieldgroup-target="import_to_survey-fields" class="init active" ng-show="selectedForm[provider.id] && formEnabled">
                                      <legend translate="survey.choose_survey_field">Choose what should be assigned to each survey field</legend>
-                                     <p translate="survey.choose_survey_field_desc">Each of the survey's fields are listed below. Choose the data from your tweets that you'd like to use to populate each of those fields.</p>
+                                   <p translate-values="{datasource_type: provider.name}" translate="survey.choose_survey_field_desc">Each of the survey's fields are listed below. Choose the data from your tweets that you'd like to use to populate each of those fields.</p>  
                                      <table>
                                          <thead>
                                              <tr>
